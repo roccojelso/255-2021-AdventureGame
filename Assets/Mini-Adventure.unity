@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 270811531}
   - component: {fileID: 270811530}
   m_Layer: 0
-  m_Name: MazeWall5 (4)
+  m_Name: MazeWall11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,8 +402,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270811529}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 150.3, y: -8.9, z: 53.9}
-  m_LocalScale: {x: 1, y: 18, z: 42.962234}
+  m_LocalPosition: {x: 150.3, y: -8.9, z: 59.2}
+  m_LocalScale: {x: 1, y: 18, z: 54.27419}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
@@ -510,7 +510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275466616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 160.62253, y: -6.6, z: -10.62}
+  m_LocalPosition: {x: 160.62253, y: -6.6, z: -45.1}
   m_LocalScale: {x: 1, y: 1.0477, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -622,7 +622,7 @@ GameObject:
   - component: {fileID: 301875470}
   - component: {fileID: 301875469}
   m_Layer: 0
-  m_Name: MazeWall5 (1)
+  m_Name: MazeWall6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 618379442}
   - component: {fileID: 618379441}
   m_Layer: 0
-  m_Name: MazeWall4 (1)
+  m_Name: MazeWall8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1522,7 +1522,7 @@ GameObject:
   - component: {fileID: 1196410926}
   - component: {fileID: 1196410925}
   m_Layer: 0
-  m_Name: MazeWall5 (2)
+  m_Name: MazeWall7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1617,7 +1617,7 @@ GameObject:
   - component: {fileID: 1395406419}
   - component: {fileID: 1395406418}
   m_Layer: 0
-  m_Name: MazeWall4 (2)
+  m_Name: MazeWall9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1712,7 +1712,7 @@ GameObject:
   - component: {fileID: 1459549227}
   - component: {fileID: 1459549226}
   m_Layer: 0
-  m_Name: MazeWall5 (3)
+  m_Name: MazeWall10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
