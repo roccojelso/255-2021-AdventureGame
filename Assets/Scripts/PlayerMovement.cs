@@ -30,11 +30,15 @@ public class PlayerMovement : MonoBehaviour
         MovePlayer();
         TurnPlayer();
 
-        if (Input.GetKey("escape")) 
+        if (Input.GetKeyDown(KeyCode.Escape)) 
         {
             Application.Quit();
         }
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
+        }
 
     }
 
