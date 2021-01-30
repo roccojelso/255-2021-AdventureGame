@@ -30,6 +30,10 @@ public class PlayerMovement : MonoBehaviour
         MovePlayer();
         TurnPlayer();
 
+        if (Input.GetKey("escape")) 
+        {
+            Application.Quit();
+        }
 
 
     }
