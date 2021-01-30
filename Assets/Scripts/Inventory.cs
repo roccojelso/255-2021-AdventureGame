@@ -14,11 +14,6 @@ public class Inventory : MonoBehaviour
     }
 
     public bool hasKey = false;
-    public bool hasBook = false;
-    public bool hasTorch = false;
-    public bool hasPGem = false;
-    public bool hasGGem = false;
-    public bool hasYGem = false;
 
     private void Start()
     {
