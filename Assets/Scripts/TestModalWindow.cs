@@ -26,7 +26,7 @@ public class TestModalWindow : MonoBehaviour
     //Send to the Modal Panel to set up the Buttons and Functions to call
     public void TestBNC()
     {
-        modalWindow.Choice("")
+        //modalWindow.Choice("")
     }
     //These are wrapped in UnityActions
 
