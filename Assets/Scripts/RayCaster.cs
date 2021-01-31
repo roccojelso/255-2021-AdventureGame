@@ -37,7 +37,6 @@ public class RayCaster : MonoBehaviour
 
                 ItemPickup pickup = hit.transform.GetComponent<ItemPickup>();
                 if (pickup != null) pickup.PlayerInteract();
-
             }
         }
     }
