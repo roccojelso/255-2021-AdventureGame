@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorController : MonoBehaviour
+public class Door1 : MonoBehaviour
 {
 
     public Transform DoorArt;
@@ -60,7 +60,7 @@ public class DoorController : MonoBehaviour
     {
         if (animIsPlaying) return;
 
-        if (!Inventory.main.hasKey) return;
+        if (!Inventory.main.hasGGem) return;
 
         Vector3 disToPlayer = position - transform.position;
         disToPlayer = disToPlayer.normalized;
@@ -81,4 +81,3 @@ public class DoorController : MonoBehaviour
         else animTimer = 0;
     }
 }
-
