@@ -7,6 +7,8 @@ public class DoorController : MonoBehaviour
 
     public Transform DoorArt;
 
+
+
     private float doorAngle = 0;
 
     public float animLength = 0.5f;
@@ -75,10 +77,11 @@ public class DoorController : MonoBehaviour
             if (playerOnOtherSide) doorAngle = -90;
         }
 
+        //if(!isClosed) doorAngle = (playerOnOtherSide) ? -90 : 90;
+
         animIsPlaying = true;
 
         if (isClosed) animTimer = animLength;
         else animTimer = 0;
     }
 }
-
